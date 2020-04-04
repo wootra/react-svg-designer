@@ -1,0 +1,124 @@
+.svgTool{
+    background-color: #dddddd;
+    display: block;
+}
+
+.svgPt{
+    display: block;
+}
+
+.historyWrapper{
+    font-size: 8pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.historyItemWrapper{
+    background-color: #cecece;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding-left:5px;
+    position:relative;
+}
+
+.historyItemTitleRow{
+    background-color: #cecece;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    position:relative;
+}
+
+.historyItemWrapper:hover, .historyItemTitleRow:hover{
+    background-color: #92ffa4;
+    
+}
+.styleItemValue{
+    width: 70px;
+}
+.infoItemValue{
+    width: 70px;
+}
+.pathItemValue{
+    width: 70px;
+}
+
+.stylesWrapper{
+    background-color: #f6f86d;
+}
+
+.stylesTitle{
+    background-color: #cecece;
+}
+
+.historyItemName{
+    width: auto;
+}
+
+.expandBtn{
+    width:8px;
+    height: 100%;
+    background-color: #fff567;
+    color: black;
+    cursor: pointer;
+}
+
+.expandBtn:hover{
+    background-color: #ffc72e;
+    color: white;
+}
+
+
+.deleteHistory{
+    position: absolute;
+    right:8px;
+    top:0;
+    width: 8px;
+    height: 100%;
+    background-color: #ff6767;
+    color: black;
+    cursor: pointer;
+}
+
+.deleteHistory:hover{
+    background-color: #ff2e2e;
+    color: white;
+}
+
+.selectedToolBtn{
+    outline-width: 3px;
+    outline-offset: 2px;
+    outline-color: red;
+    outline-style: solid;
+    background-color: #f6f86d;
+}
+
+.unselectedToolBtn{
+    background-color: #cecece;
+}
+
+.selectedToolBtn, .unselectedToolBtn{
+    display:inline-flex;
+    width:1rem;
+    height:1rem;
+    margin: 3px;
+}
+
+.selectedToolBtn:hover, .unselectedToolBtn:hover{
+    cursor:pointer;
+}
+
+.elementInfo{
+    margin-left:15px;
+}
+
+.pathLoggerWrapper{
+    background-color: #ffb067;
+}
+
+.pathLogItem{
+    background-color: #ffb067;
+    font-size: 8pt;
+}
+

@@ -1,0 +1,26 @@
+.toolboxWrapper{
+   background-color: aqua;
+   height: 100%;
+}
+
+.viewportTool{
+    background-color: green;
+}
+
+.designAreaTool{
+    background-color: green;
+}
+
+.historyTool{
+    background-color: yellow;
+}
+
+.drawingTools{
+    background-color: yellow;
+    height:30px;
+    padding-top:5px;
+}
+
+.pathLoggerTool{
+    background-color: #ffa653;
+}

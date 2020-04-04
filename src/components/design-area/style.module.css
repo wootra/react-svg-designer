@@ -1,0 +1,36 @@
+.designAreaWrapper{
+    overflow:scroll;
+    position:relative;
+}
+
+.designAreaCover{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.actualArea{
+    /* position:absolute; */
+    left:0;
+    top:0;
+    z-index: 888;
+    width:100%;
+    height:100%;
+}
+
+.designArea{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:999;
+    width:100%;
+    height:100%;
+}
+
+.designAreaCover{
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: rgba(250,200,200,0.5);
+    z-index:999999999; /* dock component was using 99999999 */
+}
